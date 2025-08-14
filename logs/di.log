@@ -1,0 +1,181 @@
+2025-08-14T09:48:23.847+09:00  INFO 14688 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : Starting Spring2diApplication using Java 17.0.5 with PID 14688 (C:\Class250615\spring_workspace\spring_2di\target\classes started by C107 in C:\Class250615\spring_workspace)
+2025-08-14T09:48:23.855+09:00  INFO 14688 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : No active profile set, falling back to 1 default profile: "default"
+2025-08-14T09:48:23.913+09:00  INFO 14688 --- [spring_2di] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-08-14T09:48:24.624+09:00  INFO 14688 --- [spring_2di] [restartedMain] org.iclass.spring_2di.component.BuyDao   : BuyDao 생성자 - sales : [라면, 과자, 탄산음료, 과일]
+2025-08-14T09:48:24.633+09:00  INFO 14688 --- [spring_2di] [restartedMain] o.i.s.component.CustomerService          : setDao 실행완료 !!
+2025-08-14T09:48:24.634+09:00  INFO 14688 --- [spring_2di] [restartedMain] o.i.s.component.CustomerController       : setService 실행 완료!!
+2025-08-14T09:48:24.636+09:00  INFO 14688 --- [spring_2di] [restartedMain] o.i.spring_2di.component.ProductDao      : Product 기본생성자 - 
+2025-08-14T09:48:24.638+09:00  INFO 14688 --- [spring_2di] [restartedMain] o.i.spring_2di.component.ProductService  : ProductDao 생성자: welcome!!
+2025-08-14T09:48:24.639+09:00  INFO 14688 --- [spring_2di] [restartedMain] o.i.s.component.ProductController        : ProductController 생성자 - service : class org.iclass.spring_2di.component.ProductService
+2025-08-14T09:48:24.742+09:00  INFO 14688 --- [spring_2di] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-08-14T09:48:24.770+09:00  INFO 14688 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : Started Spring2diApplication in 1.501 seconds (process running for 1.918)
+2025-08-14T10:26:08.064+09:00  INFO 15320 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : Starting Spring2diApplication using Java 17.0.5 with PID 15320 (C:\Class250615\spring_workspace\spring_2di\target\classes started by C107 in C:\Class250615\spring_workspace)
+2025-08-14T10:26:08.067+09:00  INFO 15320 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : No active profile set, falling back to 1 default profile: "default"
+2025-08-14T10:26:08.120+09:00  INFO 15320 --- [spring_2di] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-08-14T10:26:08.685+09:00  INFO 15320 --- [spring_2di] [restartedMain] org.iclass.spring_2di.component.BuyDao   : BuyDao 생성자 - sales : []
+2025-08-14T10:26:08.694+09:00  INFO 15320 --- [spring_2di] [restartedMain] o.i.s.component.CustomerService          : setDao 실행완료 !!
+2025-08-14T10:26:08.695+09:00  INFO 15320 --- [spring_2di] [restartedMain] o.i.s.component.CustomerController       : setService 실행 완료!!
+2025-08-14T10:26:08.697+09:00  INFO 15320 --- [spring_2di] [restartedMain] o.i.spring_2di.component.ProductDao      : Product 기본생성자 - 
+2025-08-14T10:26:08.698+09:00  INFO 15320 --- [spring_2di] [restartedMain] o.i.spring_2di.component.ProductService  : ProductDao 생성자: welcome!!
+2025-08-14T10:26:08.699+09:00  INFO 15320 --- [spring_2di] [restartedMain] o.i.s.component.ProductController        : ProductController 생성자 - service : class org.iclass.spring_2di.component.ProductService
+2025-08-14T10:26:08.810+09:00  INFO 15320 --- [spring_2di] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-08-14T10:26:08.833+09:00  INFO 15320 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : Started Spring2diApplication in 1.284 seconds (process running for 1.669)
+2025-08-14T10:26:08.843+09:00  INFO 15320 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 bean 이름 : org.springframework.context.annotation.internalConfigurationAnnotationProcessor
+2025-08-14T10:26:08.844+09:00  INFO 15320 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 bean 이름 : org.springframework.context.annotation.internalAutowiredAnnotationProcessor
+2025-08-14T10:26:08.844+09:00  INFO 15320 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 bean 이름 : org.springframework.context.annotation.internalCommonAnnotationProcessor
+2025-08-14T10:26:08.845+09:00  INFO 15320 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 bean 이름 : org.springframework.context.event.internalEventListenerProcessor
+2025-08-14T10:26:08.845+09:00  INFO 15320 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 bean 이름 : org.springframework.context.event.internalEventListenerFactory
+2025-08-14T10:26:08.845+09:00  INFO 15320 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 bean 이름 : spring2diApplication
+2025-08-14T10:26:08.846+09:00  INFO 15320 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 bean 이름 : org.springframework.boot.autoconfigure.internalCachingMetadataReaderFactory
+2025-08-14T10:26:08.846+09:00  INFO 15320 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 bean 이름 : buyConfig
+2025-08-14T10:26:08.846+09:00  INFO 15320 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 bean 이름 : buyDao
+2025-08-14T10:26:08.847+09:00  INFO 15320 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 bean 이름 : customerApplication
+2025-08-14T10:26:08.847+09:00  INFO 15320 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 bean 이름 : customerController
+2025-08-14T10:26:08.847+09:00  INFO 15320 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 bean 이름 : customerDao
+2025-08-14T10:26:08.847+09:00  INFO 15320 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 bean 이름 : customerService
+2025-08-14T10:26:08.848+09:00  INFO 15320 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 bean 이름 : productController
+2025-08-14T10:26:08.848+09:00  INFO 15320 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 bean 이름 : productDao
+2025-08-14T10:26:08.848+09:00  INFO 15320 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 bean 이름 : productService
+2025-08-14T10:26:08.849+09:00  INFO 15320 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 bean 이름 : org.springframework.boot.autoconfigure.AutoConfigurationPackages
+2025-08-14T10:26:08.849+09:00  INFO 15320 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 bean 이름 : org.springframework.boot.autoconfigure.context.PropertyPlaceholderAutoConfiguration
+2025-08-14T10:26:08.849+09:00  INFO 15320 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 bean 이름 : propertySourcesPlaceholderConfigurer
+2025-08-14T10:26:08.850+09:00  INFO 15320 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 bean 이름 : org.springframework.boot.autoconfigure.aop.AopAutoConfiguration$ClassProxyingConfiguration
+2025-08-14T10:26:08.850+09:00  INFO 15320 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 bean 이름 : forceAutoProxyCreatorToUseClassProxying
+2025-08-14T10:26:08.850+09:00  INFO 15320 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 bean 이름 : org.springframework.boot.autoconfigure.aop.AopAutoConfiguration
+2025-08-14T10:26:08.851+09:00  INFO 15320 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 bean 이름 : org.springframework.boot.autoconfigure.availability.ApplicationAvailabilityAutoConfiguration
+2025-08-14T10:26:08.851+09:00  INFO 15320 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 bean 이름 : applicationAvailability
+2025-08-14T10:26:08.851+09:00  INFO 15320 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 bean 이름 : org.springframework.boot.autoconfigure.context.ConfigurationPropertiesAutoConfiguration
+2025-08-14T10:26:08.852+09:00  INFO 15320 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 bean 이름 : org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor
+2025-08-14T10:26:08.852+09:00  INFO 15320 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 bean 이름 : org.springframework.boot.context.internalConfigurationPropertiesBinder
+2025-08-14T10:26:08.852+09:00  INFO 15320 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 bean 이름 : org.springframework.boot.context.properties.BoundConfigurationProperties
+2025-08-14T10:26:08.852+09:00  INFO 15320 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 bean 이름 : org.springframework.boot.context.properties.EnableConfigurationPropertiesRegistrar.methodValidationExcludeFilter
+2025-08-14T10:26:08.853+09:00  INFO 15320 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 bean 이름 : org.springframework.boot.autoconfigure.context.LifecycleAutoConfiguration
+2025-08-14T10:26:08.853+09:00  INFO 15320 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 bean 이름 : lifecycleProcessor
+2025-08-14T10:26:08.853+09:00  INFO 15320 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 bean 이름 : spring.lifecycle-org.springframework.boot.autoconfigure.context.LifecycleProperties
+2025-08-14T10:26:08.854+09:00  INFO 15320 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 bean 이름 : org.springframework.boot.autoconfigure.info.ProjectInfoAutoConfiguration
+2025-08-14T10:26:08.854+09:00  INFO 15320 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 bean 이름 : spring.info-org.springframework.boot.autoconfigure.info.ProjectInfoProperties
+2025-08-14T10:26:08.855+09:00  INFO 15320 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 bean 이름 : org.springframework.boot.autoconfigure.sql.init.SqlInitializationAutoConfiguration
+2025-08-14T10:26:08.855+09:00  INFO 15320 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 bean 이름 : spring.sql.init-org.springframework.boot.autoconfigure.sql.init.SqlInitializationProperties
+2025-08-14T10:26:08.856+09:00  INFO 15320 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 bean 이름 : org.springframework.boot.sql.init.dependency.DatabaseInitializationDependencyConfigurer$DependsOnDatabaseInitializationPostProcessor
+2025-08-14T10:26:08.857+09:00  INFO 15320 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 bean 이름 : org.springframework.boot.autoconfigure.ssl.SslAutoConfiguration
+2025-08-14T10:26:08.857+09:00  INFO 15320 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 bean 이름 : fileWatcher
+2025-08-14T10:26:08.858+09:00  INFO 15320 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 bean 이름 : sslPropertiesSslBundleRegistrar
+2025-08-14T10:26:08.858+09:00  INFO 15320 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 bean 이름 : sslBundleRegistry
+2025-08-14T10:26:08.859+09:00  INFO 15320 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 bean 이름 : spring.ssl-org.springframework.boot.autoconfigure.ssl.SslProperties
+2025-08-14T10:26:08.859+09:00  INFO 15320 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 bean 이름 : org.springframework.boot.autoconfigure.task.TaskExecutorConfigurations$ThreadPoolTaskExecutorBuilderConfiguration
+2025-08-14T10:26:08.859+09:00  INFO 15320 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 bean 이름 : threadPoolTaskExecutorBuilder
+2025-08-14T10:26:08.860+09:00  INFO 15320 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 bean 이름 : org.springframework.boot.autoconfigure.task.TaskExecutorConfigurations$SimpleAsyncTaskExecutorBuilderConfiguration
+2025-08-14T10:26:08.861+09:00  INFO 15320 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 bean 이름 : simpleAsyncTaskExecutorBuilder
+2025-08-14T10:26:08.862+09:00  INFO 15320 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 bean 이름 : org.springframework.boot.autoconfigure.task.TaskExecutorConfigurations$AsyncConfigurerConfiguration
+2025-08-14T10:26:08.862+09:00  INFO 15320 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 bean 이름 : applicationTaskExecutorAsyncConfigurer
+2025-08-14T10:26:08.863+09:00  INFO 15320 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 bean 이름 : org.springframework.boot.autoconfigure.task.TaskExecutorConfigurations$TaskExecutorConfiguration
+2025-08-14T10:26:08.863+09:00  INFO 15320 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 bean 이름 : applicationTaskExecutor
+2025-08-14T10:26:08.863+09:00  INFO 15320 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 bean 이름 : org.springframework.boot.autoconfigure.task.TaskExecutorConfigurations$BootstrapExecutorConfiguration
+2025-08-14T10:26:08.864+09:00  INFO 15320 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 bean 이름 : bootstrapExecutorAliasPostProcessor
+2025-08-14T10:26:08.864+09:00  INFO 15320 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 bean 이름 : org.springframework.boot.autoconfigure.task.TaskExecutionAutoConfiguration
+2025-08-14T10:26:08.865+09:00  INFO 15320 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 bean 이름 : spring.task.execution-org.springframework.boot.autoconfigure.task.TaskExecutionProperties
+2025-08-14T10:26:08.866+09:00  INFO 15320 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 bean 이름 : org.springframework.boot.autoconfigure.task.TaskSchedulingConfigurations$ThreadPoolTaskSchedulerBuilderConfiguration
+2025-08-14T10:26:08.867+09:00  INFO 15320 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 bean 이름 : threadPoolTaskSchedulerBuilder
+2025-08-14T10:26:08.867+09:00  INFO 15320 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 bean 이름 : org.springframework.boot.autoconfigure.task.TaskSchedulingConfigurations$SimpleAsyncTaskSchedulerBuilderConfiguration
+2025-08-14T10:26:08.868+09:00  INFO 15320 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 bean 이름 : simpleAsyncTaskSchedulerBuilder
+2025-08-14T10:26:08.868+09:00  INFO 15320 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 bean 이름 : org.springframework.boot.autoconfigure.task.TaskSchedulingAutoConfiguration
+2025-08-14T10:26:08.868+09:00  INFO 15320 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 bean 이름 : spring.task.scheduling-org.springframework.boot.autoconfigure.task.TaskSchedulingProperties
+2025-08-14T10:26:08.869+09:00  INFO 15320 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 bean 이름 : org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartConfiguration
+2025-08-14T10:26:08.871+09:00  INFO 15320 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 bean 이름 : restartingClassPathChangedEventListener
+2025-08-14T10:26:08.873+09:00  INFO 15320 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 bean 이름 : classPathFileSystemWatcher
+2025-08-14T10:26:08.873+09:00  INFO 15320 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 bean 이름 : classPathRestartStrategy
+2025-08-14T10:26:08.873+09:00  INFO 15320 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 bean 이름 : fileSystemWatcherFactory
+2025-08-14T10:26:08.874+09:00  INFO 15320 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 bean 이름 : conditionEvaluationDeltaLoggingListener
+2025-08-14T10:26:08.874+09:00  INFO 15320 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 bean 이름 : org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$LiveReloadConfiguration
+2025-08-14T10:26:08.875+09:00  INFO 15320 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 bean 이름 : liveReloadServer
+2025-08-14T10:26:08.875+09:00  INFO 15320 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 bean 이름 : optionalLiveReloadServer
+2025-08-14T10:26:08.875+09:00  INFO 15320 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 bean 이름 : liveReloadServerEventListener
+2025-08-14T10:26:08.876+09:00  INFO 15320 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 bean 이름 : org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration
+2025-08-14T10:26:08.878+09:00  INFO 15320 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 bean 이름 : spring.devtools-org.springframework.boot.devtools.autoconfigure.DevToolsProperties
+2025-08-14T10:26:08.878+09:00  INFO 15320 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 bean 이름 : org.springframework.aop.config.internalAutoProxyCreator
+2025-08-14T10:26:08.878+09:00  INFO 15320 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 현재 bean의 갯수 : 73
+2025-08-14T10:57:31.969+09:00  INFO 608 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : Starting Spring2diApplication using Java 17.0.5 with PID 608 (C:\Class250615\spring_workspace\spring_2di\target\classes started by C107 in C:\Class250615\spring_workspace)
+2025-08-14T10:57:31.972+09:00  INFO 608 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : No active profile set, falling back to 1 default profile: "default"
+2025-08-14T10:57:32.036+09:00  INFO 608 --- [spring_2di] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-08-14T10:57:32.636+09:00  INFO 608 --- [spring_2di] [restartedMain] org.iclass.spring_2di.component.BuyDao   : BuyDao 생성자 - sales : []
+2025-08-14T10:57:32.649+09:00  INFO 608 --- [spring_2di] [restartedMain] o.i.s.component.CustomerService          : setDao 실행완료 !!
+2025-08-14T10:57:32.651+09:00  INFO 608 --- [spring_2di] [restartedMain] o.i.s.component.CustomerController       : setService 실행 완료!!
+2025-08-14T10:57:32.652+09:00  INFO 608 --- [spring_2di] [restartedMain] o.i.spring_2di.component.ProductDao      : Product 기본생성자 - 
+2025-08-14T10:57:32.654+09:00  INFO 608 --- [spring_2di] [restartedMain] o.i.spring_2di.component.ProductService  : ProductDao 생성자: welcome!!
+2025-08-14T10:57:32.656+09:00  INFO 608 --- [spring_2di] [restartedMain] o.i.s.component.ProductController        : ProductController 생성자 - service : class org.iclass.spring_2di.component.ProductService
+2025-08-14T10:57:32.761+09:00  INFO 608 --- [spring_2di] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-08-14T10:57:32.811+09:00  INFO 608 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : Started Spring2diApplication in 1.392 seconds (process running for 1.784)
+2025-08-14T10:57:32.825+09:00  INFO 608 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 bean 이름 : org.springframework.context.annotation.internalConfigurationAnnotationProcessor
+2025-08-14T10:57:32.826+09:00  INFO 608 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 bean 이름 : org.springframework.context.annotation.internalAutowiredAnnotationProcessor
+2025-08-14T10:57:32.827+09:00  INFO 608 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 bean 이름 : org.springframework.context.annotation.internalCommonAnnotationProcessor
+2025-08-14T10:57:32.828+09:00  INFO 608 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 bean 이름 : org.springframework.context.event.internalEventListenerProcessor
+2025-08-14T10:57:32.828+09:00  INFO 608 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 bean 이름 : org.springframework.context.event.internalEventListenerFactory
+2025-08-14T10:57:32.828+09:00  INFO 608 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 bean 이름 : spring2diApplication
+2025-08-14T10:57:32.829+09:00  INFO 608 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 bean 이름 : org.springframework.boot.autoconfigure.internalCachingMetadataReaderFactory
+2025-08-14T10:57:32.830+09:00  INFO 608 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 bean 이름 : buyConfig
+2025-08-14T10:57:32.831+09:00  INFO 608 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 bean 이름 : buyDao
+2025-08-14T10:57:32.832+09:00  INFO 608 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 bean 이름 : customerApplication
+2025-08-14T10:57:32.832+09:00  INFO 608 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 bean 이름 : customerController
+2025-08-14T10:57:32.833+09:00  INFO 608 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 bean 이름 : customerDao
+2025-08-14T10:57:32.833+09:00  INFO 608 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 bean 이름 : customerService
+2025-08-14T10:57:32.833+09:00  INFO 608 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 bean 이름 : productController
+2025-08-14T10:57:32.833+09:00  INFO 608 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 bean 이름 : productDao
+2025-08-14T10:57:32.834+09:00  INFO 608 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 bean 이름 : productService
+2025-08-14T10:57:32.834+09:00  INFO 608 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 bean 이름 : org.springframework.boot.autoconfigure.AutoConfigurationPackages
+2025-08-14T10:57:32.835+09:00  INFO 608 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 bean 이름 : org.springframework.boot.autoconfigure.context.PropertyPlaceholderAutoConfiguration
+2025-08-14T10:57:32.836+09:00  INFO 608 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 bean 이름 : propertySourcesPlaceholderConfigurer
+2025-08-14T10:57:32.836+09:00  INFO 608 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 bean 이름 : org.springframework.boot.autoconfigure.aop.AopAutoConfiguration$ClassProxyingConfiguration
+2025-08-14T10:57:32.837+09:00  INFO 608 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 bean 이름 : forceAutoProxyCreatorToUseClassProxying
+2025-08-14T10:57:32.838+09:00  INFO 608 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 bean 이름 : org.springframework.boot.autoconfigure.aop.AopAutoConfiguration
+2025-08-14T10:57:32.840+09:00  INFO 608 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 bean 이름 : org.springframework.boot.autoconfigure.availability.ApplicationAvailabilityAutoConfiguration
+2025-08-14T10:57:32.840+09:00  INFO 608 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 bean 이름 : applicationAvailability
+2025-08-14T10:57:32.841+09:00  INFO 608 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 bean 이름 : org.springframework.boot.autoconfigure.context.ConfigurationPropertiesAutoConfiguration
+2025-08-14T10:57:32.841+09:00  INFO 608 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 bean 이름 : org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor
+2025-08-14T10:57:32.841+09:00  INFO 608 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 bean 이름 : org.springframework.boot.context.internalConfigurationPropertiesBinder
+2025-08-14T10:57:32.842+09:00  INFO 608 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 bean 이름 : org.springframework.boot.context.properties.BoundConfigurationProperties
+2025-08-14T10:57:32.843+09:00  INFO 608 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 bean 이름 : org.springframework.boot.context.properties.EnableConfigurationPropertiesRegistrar.methodValidationExcludeFilter
+2025-08-14T10:57:32.844+09:00  INFO 608 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 bean 이름 : org.springframework.boot.autoconfigure.context.LifecycleAutoConfiguration
+2025-08-14T10:57:32.844+09:00  INFO 608 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 bean 이름 : lifecycleProcessor
+2025-08-14T10:57:32.845+09:00  INFO 608 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 bean 이름 : spring.lifecycle-org.springframework.boot.autoconfigure.context.LifecycleProperties
+2025-08-14T10:57:32.845+09:00  INFO 608 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 bean 이름 : org.springframework.boot.autoconfigure.info.ProjectInfoAutoConfiguration
+2025-08-14T10:57:32.845+09:00  INFO 608 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 bean 이름 : spring.info-org.springframework.boot.autoconfigure.info.ProjectInfoProperties
+2025-08-14T10:57:32.846+09:00  INFO 608 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 bean 이름 : org.springframework.boot.autoconfigure.sql.init.SqlInitializationAutoConfiguration
+2025-08-14T10:57:32.847+09:00  INFO 608 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 bean 이름 : spring.sql.init-org.springframework.boot.autoconfigure.sql.init.SqlInitializationProperties
+2025-08-14T10:57:32.848+09:00  INFO 608 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 bean 이름 : org.springframework.boot.sql.init.dependency.DatabaseInitializationDependencyConfigurer$DependsOnDatabaseInitializationPostProcessor
+2025-08-14T10:57:32.849+09:00  INFO 608 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 bean 이름 : org.springframework.boot.autoconfigure.ssl.SslAutoConfiguration
+2025-08-14T10:57:32.849+09:00  INFO 608 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 bean 이름 : fileWatcher
+2025-08-14T10:57:32.849+09:00  INFO 608 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 bean 이름 : sslPropertiesSslBundleRegistrar
+2025-08-14T10:57:32.850+09:00  INFO 608 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 bean 이름 : sslBundleRegistry
+2025-08-14T10:57:32.850+09:00  INFO 608 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 bean 이름 : spring.ssl-org.springframework.boot.autoconfigure.ssl.SslProperties
+2025-08-14T10:57:32.850+09:00  INFO 608 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 bean 이름 : org.springframework.boot.autoconfigure.task.TaskExecutorConfigurations$ThreadPoolTaskExecutorBuilderConfiguration
+2025-08-14T10:57:32.851+09:00  INFO 608 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 bean 이름 : threadPoolTaskExecutorBuilder
+2025-08-14T10:57:32.851+09:00  INFO 608 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 bean 이름 : org.springframework.boot.autoconfigure.task.TaskExecutorConfigurations$SimpleAsyncTaskExecutorBuilderConfiguration
+2025-08-14T10:57:32.853+09:00  INFO 608 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 bean 이름 : simpleAsyncTaskExecutorBuilder
+2025-08-14T10:57:32.853+09:00  INFO 608 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 bean 이름 : org.springframework.boot.autoconfigure.task.TaskExecutorConfigurations$AsyncConfigurerConfiguration
+2025-08-14T10:57:32.854+09:00  INFO 608 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 bean 이름 : applicationTaskExecutorAsyncConfigurer
+2025-08-14T10:57:32.854+09:00  INFO 608 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 bean 이름 : org.springframework.boot.autoconfigure.task.TaskExecutorConfigurations$TaskExecutorConfiguration
+2025-08-14T10:57:32.855+09:00  INFO 608 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 bean 이름 : applicationTaskExecutor
+2025-08-14T10:57:32.855+09:00  INFO 608 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 bean 이름 : org.springframework.boot.autoconfigure.task.TaskExecutorConfigurations$BootstrapExecutorConfiguration
+2025-08-14T10:57:32.855+09:00  INFO 608 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 bean 이름 : bootstrapExecutorAliasPostProcessor
+2025-08-14T10:57:32.855+09:00  INFO 608 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 bean 이름 : org.springframework.boot.autoconfigure.task.TaskExecutionAutoConfiguration
+2025-08-14T10:57:32.856+09:00  INFO 608 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 bean 이름 : spring.task.execution-org.springframework.boot.autoconfigure.task.TaskExecutionProperties
+2025-08-14T10:57:32.856+09:00  INFO 608 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 bean 이름 : org.springframework.boot.autoconfigure.task.TaskSchedulingConfigurations$ThreadPoolTaskSchedulerBuilderConfiguration
+2025-08-14T10:57:32.857+09:00  INFO 608 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 bean 이름 : threadPoolTaskSchedulerBuilder
+2025-08-14T10:57:32.857+09:00  INFO 608 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 bean 이름 : org.springframework.boot.autoconfigure.task.TaskSchedulingConfigurations$SimpleAsyncTaskSchedulerBuilderConfiguration
+2025-08-14T10:57:32.857+09:00  INFO 608 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 bean 이름 : simpleAsyncTaskSchedulerBuilder
+2025-08-14T10:57:32.857+09:00  INFO 608 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 bean 이름 : org.springframework.boot.autoconfigure.task.TaskSchedulingAutoConfiguration
+2025-08-14T10:57:32.858+09:00  INFO 608 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 bean 이름 : spring.task.scheduling-org.springframework.boot.autoconfigure.task.TaskSchedulingProperties
+2025-08-14T10:57:32.858+09:00  INFO 608 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 bean 이름 : org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartConfiguration
+2025-08-14T10:57:32.858+09:00  INFO 608 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 bean 이름 : restartingClassPathChangedEventListener
+2025-08-14T10:57:32.859+09:00  INFO 608 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 bean 이름 : classPathFileSystemWatcher
+2025-08-14T10:57:32.859+09:00  INFO 608 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 bean 이름 : classPathRestartStrategy
+2025-08-14T10:57:32.859+09:00  INFO 608 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 bean 이름 : fileSystemWatcherFactory
+2025-08-14T10:57:32.860+09:00  INFO 608 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 bean 이름 : conditionEvaluationDeltaLoggingListener
+2025-08-14T10:57:32.860+09:00  INFO 608 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 bean 이름 : org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$LiveReloadConfiguration
+2025-08-14T10:57:32.860+09:00  INFO 608 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 bean 이름 : liveReloadServer
+2025-08-14T10:57:32.861+09:00  INFO 608 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 bean 이름 : optionalLiveReloadServer
+2025-08-14T10:57:32.861+09:00  INFO 608 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 bean 이름 : liveReloadServerEventListener
+2025-08-14T10:57:32.861+09:00  INFO 608 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 bean 이름 : org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration
+2025-08-14T10:57:32.861+09:00  INFO 608 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 bean 이름 : spring.devtools-org.springframework.boot.devtools.autoconfigure.DevToolsProperties
+2025-08-14T10:57:32.861+09:00  INFO 608 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 bean 이름 : org.springframework.aop.config.internalAutoProxyCreator
+2025-08-14T10:57:32.862+09:00  INFO 608 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 현재 bean의 갯수 : 73

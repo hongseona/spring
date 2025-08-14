@@ -1,0 +1,31 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CustomerApplication",
+            "request": "launch",
+            "mainClass": "org.iclass.spring_2di.component.CustomerApplication",
+            "projectName": "spring_2di"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-Spring2diApplication<spring_2di>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "org.iclass.spring_2di.Spring2diApplication",
+            "projectName": "spring_2di",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-Spring3mybatisApplication<spring_3mybatis>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "org.iclass.spring_3mybatis.Spring3mybatisApplication",
+            "projectName": "spring_3mybatis",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
