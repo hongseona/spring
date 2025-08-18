@@ -1,0 +1,16 @@
+ul#nav {
+    list-style: none;
+    padding: 0px 20px;
+    display: flex;
+    justify-content: start;  /* 왼쪽 정렬 */
+}
+
+ul#nav > li {
+    padding: 0px 20px;  /* 상하 0px 좌우 20px */
+
+}
+
+a {
+    text-decoration: none;  /* 밑줄 제거 */
+
+}

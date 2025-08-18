@@ -3775,3 +3775,13 @@ Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No q
 2025-08-14T14:48:09.916+09:00  INFO 12204 --- [spring_4restapi] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
 2025-08-14T14:48:10.835+09:00  INFO 12204 --- [spring_4restapi] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
 2025-08-14T14:48:10.867+09:00  INFO 12204 --- [spring_4restapi] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-08-18T13:50:50.133+09:00  INFO 4304 --- [spring_4restapi] [main] o.i.spring_4restapi.CustomerMapperTest   : Starting CustomerMapperTest using Java 17.0.5 with PID 4304 (started by C106 in C:\Class250615\spring\spring_4restapi)
+2025-08-18T13:50:50.135+09:00  INFO 4304 --- [spring_4restapi] [main] o.i.spring_4restapi.CustomerMapperTest   : No active profile set, falling back to 1 default profile: "default"
+2025-08-18T13:50:53.048+09:00  INFO 4304 --- [spring_4restapi] [main] o.i.spring_4restapi.CustomerMapperTest   : Started CustomerMapperTest in 3.453 seconds (process running for 4.899)
+2025-08-18T13:50:53.088+09:00  INFO 4304 --- [spring_4restapi] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-08-18T13:50:53.095+09:00  WARN 4304 --- [spring_4restapi] [main] c.zaxxer.hikari.util.DriverDataSource    : Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation.
+2025-08-18T13:50:53.723+09:00  INFO 4304 --- [spring_4restapi] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@6bb4cc0e
+2025-08-18T13:50:53.725+09:00  INFO 4304 --- [spring_4restapi] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-08-18T13:50:56.505+09:00  INFO 4304 --- [spring_4restapi] [main] o.i.spring_4restapi.CustomerMapperTest   : [CustomerDto(customId=hongGD, name=홍길동, email=gil@korea.com, age=32, regDate=2023-10-21), CustomerDto(customId=mina012, name=김미나, email=kimm@gmail.com, age=20, regDate=2025-03-10), CustomerDto(customId=twice, name=박모모, email=momo@daum.net, age=29, regDate=2024-12-25), CustomerDto(customId=wonder, name=이나나, email=lee@naver.com, age=0, regDate=2024-12-31)]
+2025-08-18T13:50:56.580+09:00  INFO 4304 --- [spring_4restapi] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-08-18T13:50:56.611+09:00  INFO 4304 --- [spring_4restapi] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

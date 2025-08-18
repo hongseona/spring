@@ -1,20 +1,24 @@
 package org.iclass.spring_4restapi.controller;
 
+import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
 import org.iclass.spring_4restapi.dto.CustomerDto;
 import org.iclass.spring_4restapi.service.CustomerService;
-import org.springframework.http.HttpStatusCode;
 import org.springframework.http.ResponseEntity;
+import org.springframework.validation.BindingResult;
+import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.PutMapping;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
+import jakarta.validation.Valid;
 import lombok.AllArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
 
 // @Component
 @Slf4j
@@ -52,5 +56,46 @@ public class CustomerRestController {
     }
 
   }
+   @PutMapping("/api/customers/{id}")
+  public ResponseEntity<?> change(
+      @PathVariable String id,
+      @Valid @RequestBody CustomerDto dto,
+      BindingResult bindingResult) {
+
+    if (bindingResult.hasErrors()) {
+      Map<String, String> errors = new HashMap<>();
+      bindingResult.getFieldErrors().forEach(err -> {
+        errors.put(err.getField(), err.getDefaultMessage());
+      });
+      return ResponseEntity.badRequest().body(errors);
+    }
+    // 회원 정보 이메일, 나이 수정
+    try {
+      int result = service.changeInfo(dto);
+      if (result == 0) { // id 값의 행이 없다면 예외는 아니고 반영된 행이 0개
+        throw new IllegalArgumentException("id: " + id + " 존재 하지 않습니다.");
+      }
+      return ResponseEntity.ok().body(Map.of("success", result));
+    } catch (Exception e) {
+      log.info("change 예외 : {}", e.getMessage());
+      return ResponseEntity.badRequest().body(Map.of("error", e.getMessage()));
+    }
+  }
+
+  @DeleteMapping("/api/customers/{id}")
+  public ResponseEntity<?> remove(@PathVariable String id) {
+    // 회원 정보 이메일, 나이 수정
+    try {
+      int result = service.removeCustomer(id);
+      if (result == 0) { // id 값의 행이 없다면 예외는 아니고 반영된 행이 0개
+        throw new IllegalArgumentException("id: " + id + " 존재 하지 않습니다.");
+      }
+      return ResponseEntity.ok().body(Map.of("success", result));
+    } catch (Exception e) {
+      log.info("change 예외 : {}", e.getMessage());
+      return ResponseEntity.badRequest().body(Map.of("error", e.getMessage()));
+    }
+  }
+
 
 }
