@@ -7,7 +7,7 @@ import org.iclass.board.dto.CommunityCommentsDto;
 
 @Mapper
 public interface CommunityCommentsMapper {
-    CommunityCommentsDto selectByPk(Integer idx);
+    CommunityCommentsDto selectByPk(long idx);
 
     List<CommunityCommentsDto> selectAll();
 

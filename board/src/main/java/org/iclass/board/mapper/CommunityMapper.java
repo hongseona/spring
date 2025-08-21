@@ -7,13 +7,18 @@ import org.iclass.board.dto.CommunityDto;
 
 @Mapper
 public interface CommunityMapper {
-    CommunityDto selectByPk(Integer idx);
+
+    int getAllCount();
 
     List<CommunityDto> selectAll();
 
     int insert(CommunityDto dto);
 
+    CommunityDto selectByIdx(long idx);
+
+    int setReadCount(long idx);
+
     int update(CommunityDto dto);
 
-    int delete(CommunityDto dto);
+    int delete(long idx);
 }

@@ -1,0 +1,66 @@
+<!-- Community 테이블 전용 mybatis 매퍼 -->
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+ PUBLIC "-//mybatis.org/DTD Mapper 3.0/EN"
+ "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+ <mapper namespace="org.iclass.board.mapper.CommunityMapper">
+
+
+	<select id="selectAll" resultType="CommunityDto">
+		SELECT * FROM community ORDER BY idx desc
+		<!-- id="selectAll": 전체 글 목록 불러오기. 글 최신 순(내림차순) 정렬 -->
+	</select>
+
+	<select id="selectByIdx" resultType="CommunityDto" parameterType="long">
+		SELECT * FROM community WHERE idx = #{idx} 
+		<!-- parameterType="long": 글 번호(idx) 받고 그 번호에 해당하는 글 1개만 가져옴 -->
+		<!-- 👉글 상세보기 할 때 사용 -->
+	</select>
+
+	<!-- 조회수 증가 -->
+	<update id="setReadCount" parameterType="long">
+		UPDATE community 		
+		SET READCOUNT = READCOUNT +1 		<!-- 조회할떄마다 1씩 증가-->
+		WHERE idx = #{idx}
+		<!-- 특정 글을 열람했을 떄 실행됨 -->
+	</update>
+
+	<!-- 전체 글 개수 카운트 -->
+	<select id="getAllCount" resultType="int">
+		SELECT count(*) FROM community 
+		<!-- community  테이블에 글이 몇개 있는지 개수만 가져옴 (+ 페이징 처리할 떄 필요)-->
+	</select>
+
+	<!-- 글목록 가져오기(=> 페이징 처리:한번에 보여줄 양을 잘라서 가져오는 것) -->
+	<select id="selectPageList" parameterType="java.util.Map" resultType="CommunityDto">
+	<!-- parameterType="java.util.Map": startNo(시작번호), endNo(끝 번호) 값을 Map 으로 전달 -->
+		SELECT * FROM 
+			(SELECT rownum r ,f.* from		<!-- rownum: Oracle 에서 행 번호를 매기는 기능-->
+				(SELECT * FROM community  ORDER BY idx DESC) f)
+		WHERE r BETWEEN #{startNo} AND #{endNo}	
+		<!-- BETWEEN #{startNo} AND #{endNo}: 특정 범위의 글만 가져옴 (ex] 한 페이지에 10개씩 보여주기) -->
+	</select>
+	
+	<!-- 글 추가(= 새 글 등록) -->
+	<insert id="insert" parameterType="CommunityDto" useGeneratedKeys="true" keyProperty="idx" keyColumn="idx">
+		INSERT INTO community (idx,writer,title,content)
+		VALUES (community_idx_seq.nextval,#{writer},#{title},#{content})		<!-- #{writer},#{title},#{content}: 글쓴이, 제목, 내용 -->
+		<!-- community_idx_seq.nextval: 글 번호 자동 증가 시퀀스 -->
+		<!-- useGeneratedKeys="true": DB 에서 생성된 키(idx값)를 DTO 의 idx 속성에 자동으로 넣어줌 -->
+	</insert>
+	
+	<!-- 글 수정 -->
+	<update id="update" parameterType="CommunityDto">
+		UPDATE COMMUNITY 
+		SET CONTENT = #{content} , title = #{title}
+		WHERE idx=#{idx}
+		<!-- idx(글 번호)에 해당하는 게시글의 내용, 제목을 수정 -->
+	</update>
+	
+	<!-- 글 삭제 -->
+	<delete id="delete" parameterType="long">
+		DELETE FROM COMMUNITY WHERE idx=#{idx}
+		<!-- idx(글 번호)에 해당하는 게시글 삭제 -->
+	</delete>
+	
+</mapper>

@@ -3,15 +3,59 @@
  PUBLIC "-//mybatis.org/DTD Mapper 3.0/EN"
  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
  <mapper namespace="org.iclass.board.mapper.CommunityCommentsMapper">
+ <!-- namespace: 이 매퍼를 구별하는 이름표 -->
 
- <select id = "selectAll" resultType="CommunityCommentsDto">
-	SELECT * FROM TBL_COMMUNITYCOMMENTS ORDER BY idx
-</select>
+ <!-- ✅ id=ㅁㅁㅁㅁㅁ 에 해당하는 내용이 동작 핵심 -->
 
-<!-- 글 1건 조회, selectOneByIdx -> 인터페이스 메서드 이름과 동일해야 함-->
-<select id="selectOneByIdx" parameterType="Integer" resultType="CommunityCommentsDto">
-	SELECT * FROM CommunityComments WHERE idx = #{idx}
-</select>
+
+	<!-- 글 1건 조회, selectOneByIdx -> 인터페이스 메서드 이름과 동일해야 함-->
+	<select id="selectOneByIdx" parameterType="Integer" resultType="CommunityCommentsDto">
+		SELECT * FROM CommunityComments WHERE idx = #{idx}
+		<!-- 👉communityComments 테이블에서 idx가 같은 행을 가져옴 -->
+	</select>
+
+	<!-- 댓글 추가 -->
+	<insert id="insert" parameterType="CommunityCommentsDto">
+		INSERT INTO communityComments (idx, mref, writer, content)
+		VALUES (comment_idx_seq.nextval, #{mref}, #{writer}, #{content})
+		<!-- #{mref}, #{writer}, #{content}: 자바에서 넘어온 값이 들어가는 자리 -->
+		<!-- 👉새 댓글 저장하기 -->
+	</insert>
+
+	<!-- 댓글 삭제 -->
+	<delete id="delete" parameterType="Integer">
+	<!-- parameterType="Integer": 삭제할 댓글 번호 전달 -->
+		DELETE FROM communityComments c WHERE idx = #{idx}
+	<!-- 👉idx(번호)가 같은 댓글 삭제해줌 -->
+	</delete>
+
+	<!-- 댓글 목록 가져오기 -->
+	<select id="selectCommentList" parameterType="Integer">
+	<!--id="selectCommentList": 특정 글의 댓글들 볼러오기, mref(글번호)를 Integer로 전달-->
+		SELECT idx, mref, writer, content, to_char(createdaAt, 'yyyy-mm-dd hh24:mi:ss') regDate, ip
+		FROM communityComments c WHERE mref=#{mref}
+		ORDER BY idx DESC
+		<!-- to_char(createdaAt, 'yyyy-mm-dd hh24:mi:ss') regDate: 날짜를 보기 좋게 변환하기 위함 -->
+		<!-- ORDER BY idx DESC: 댓글 최신 순 정렬 -->
+		<!-- 👉메인글에 달린 댓글 목록 보여줌 -->
+	</select>
+
+	<!-- 댓글 개수 가져오기 -->
+	<select id="selectCommentCount" parameterType="Integer">
+		SELECT count(*) FROM  communityComments c WHERE mref=#{mref}
+		<!-- mref(특정 글 번호)에 달린 댓글이 몇 개인지 개수만 가져옴. 👉댓글 개수 세기-->
+	</select>
+
+	<!-- 메인 글 테이블의 댓글 개수 업데이트 -->
+	<update id="updateCommentCount" parameterType="Integer">
+	<!-- id="updateCommentCount": 메인 글의 댓글 수를 다시 계산해서 업데이트 -->
+		UPDATE COMMUNITY SET COMMENTCOUNT = 
+			(SELECT count(*) FROM communityComments c WHERE mref=#{mref})
+		WHERE idx=#{mref}  
+		<!-- COMMENTCOUNT 컬럼: 해당 글 번호(mref)의 댓글 개수 -->
+		<!-- WHERE idx=#{mref}: 글 번호 일치하는 행만 개수 수정 -->
+		<!-- 👉댓글이 추가되거나 삭제되면 메인글의 댓글 개수 업데이트 -->
+	</update>
 
 
 </mapper>

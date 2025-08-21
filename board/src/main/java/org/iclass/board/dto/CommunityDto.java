@@ -5,19 +5,23 @@ import java.sql.Date;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Getter;
+import lombok.NoArgsConstructor;
 import lombok.Setter;
+import lombok.ToString;
 
 @Getter
 @Setter
+@ToString
 @AllArgsConstructor
 @Builder
+@NoArgsConstructor
 public class CommunityDto {
-    private  Integer idx;
+    private  long idx;
     private  String writer;
     private  String title;
     private  String content;
-    private  Integer readcount;
+    private  int readcount;
     private  Date createdat;
-    private  Integer ip;
-    private  Integer commentcount;
+    private  String ip;
+    private  String commentcount;
 }
