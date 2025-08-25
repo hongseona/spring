@@ -3764,3 +3764,25 @@ oracle.jdbc.OracleDatabaseException: ORA-00904: "CREATEDAAT": 부적합한 식별자
 	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
 
 2025-08-22T17:50:05.082+09:00  INFO 592 --- [board   ] [http-nio-8080-exec-6] o.i.b.controller.CommunityController     : 오늘 날짜 : 2025-08-22
+2025-08-22T17:52:41.070+09:00  INFO 5624 --- [board   ] [restartedMain] org.iclass.board.BoardApplication        : Starting BoardApplication using Java 17.0.5 with PID 5624 (C:\Class250615\spring\board\target\classes started by C106 in C:\Class250615\spring\board)
+2025-08-22T17:52:41.111+09:00  INFO 5624 --- [board   ] [restartedMain] org.iclass.board.BoardApplication        : No active profile set, falling back to 1 default profile: "default"
+2025-08-22T17:52:41.211+09:00  INFO 5624 --- [board   ] [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\C106\.m2\repository\com\oracle\database\jdbc\ojdbc11\23.7.0.25.01\ojdbc11-23.7.0.25.01.jar referenced one or more files that do not exist: file:/C:/Users/C106/.m2/repository/com/oracle/database/jdbc/ojdbc11/23.7.0.25.01/oraclepki.jar
+2025-08-22T17:52:41.214+09:00  INFO 5624 --- [board   ] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-08-22T17:52:41.215+09:00  INFO 5624 --- [board   ] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-08-22T17:52:43.010+09:00  INFO 5624 --- [board   ] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-08-22T17:52:43.030+09:00  INFO 5624 --- [board   ] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-08-22T17:52:43.030+09:00  INFO 5624 --- [board   ] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.43]
+2025-08-22T17:52:43.081+09:00  INFO 5624 --- [board   ] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-08-22T17:52:43.082+09:00  INFO 5624 --- [board   ] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1866 ms
+2025-08-22T17:52:43.740+09:00  INFO 5624 --- [board   ] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2025-08-22T17:52:44.182+09:00  INFO 5624 --- [board   ] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-08-22T17:52:44.249+09:00  INFO 5624 --- [board   ] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-08-22T17:52:44.264+09:00  INFO 5624 --- [board   ] [restartedMain] org.iclass.board.BoardApplication        : Started BoardApplication in 3.869 seconds (process running for 4.453)
+2025-08-22T17:52:49.320+09:00  INFO 5624 --- [board   ] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-22T17:52:49.320+09:00  INFO 5624 --- [board   ] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-08-22T17:52:49.322+09:00  INFO 5624 --- [board   ] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-08-22T17:52:49.407+09:00  INFO 5624 --- [board   ] [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-08-22T17:52:49.414+09:00  WARN 5624 --- [board   ] [http-nio-8080-exec-1] c.zaxxer.hikari.util.DriverDataSource    : Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation.
+2025-08-22T17:52:49.928+09:00  INFO 5624 --- [board   ] [http-nio-8080-exec-1] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@52e17265
+2025-08-22T17:52:49.931+09:00  INFO 5624 --- [board   ] [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-08-22T17:52:50.434+09:00  INFO 5624 --- [board   ] [http-nio-8080-exec-1] o.i.b.controller.CommunityController     : 오늘 날짜 : 2025-08-22
